@@ -64,7 +64,7 @@ async def ch_pr():
   
        status = random.choice(statuses)
 
-       await bot.change_presence(activity=discord.Streaming(name=status, url="https://youtube.com/c/AdieztGaming"))
+       await bot.change_presence(activity=discord.Streaming(name=status, url="https://youtube.com/channel/UC-fUNJgqDBXI5mxFJcpkb1g"))
 
        await asyncio.sleep(3)
 
